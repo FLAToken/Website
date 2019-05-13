@@ -1,0 +1,284 @@
+.token-sale h5 {
+    font-weight : 700;
+    color : #FFFFFF;
+    text-align : center;
+  }
+  .token-sale ul.token-sale-info {
+    padding-left : 8px;
+    font-size : 1rem;
+  }
+  .token-sale ul.token-sale-info li {
+    padding : 1rem 0;
+    color : #FFFFFF;
+  }
+  .token-sale ul.token-sale-info li:before {
+    color : #FFFFFF;
+    content : '\e65d';
+    font-family : 'themify';
+    margin-right : 10px;
+    position : absolute;
+    left : -3px;
+    font-size : 1.5rem;
+    margin-top : -4px;
+  }
+
+.token-details {
+    background : -webkit-linear-gradient(58deg, #d85209, #d8b909);
+    background :    -moz-linear-gradient(58deg, #d85209, #d8b909);
+    background :      -o-linear-gradient(58deg, #d85209, #d8b909);
+    background :         linear-gradient(32deg, #d85209, #d8b909);
+    padding : 1.2rem;
+    border-radius : 0.35rem;
+    /* Flip Clock */
+    /* Progress bar */
+  }
+  .token-details .clock-counter .flip-clock-wrapper ul.flip {
+    margin : 3px;
+    -webkit-box-shadow : none !important;
+            box-shadow : none !important;
+  }
+  .token-details .clock-counter .flip-clock-divider {
+    width : 12px;
+  }
+  .token-details .clock-counter .flip-clock-divider .flip-clock-dot {
+    width : 6px;
+    height : 6px;
+    left : 3px;
+  }
+  .token-details .progress {
+    background : #FFFFFF;
+    border : 4px solid #FFFFFF;
+    border-radius : 1rem;
+    height : 1.5rem;
+    overflow : initial;
+  }
+  .token-details .progress-bar-custom {
+    background : #FFFFFF;
+    margin-top: 0.8px;
+    border-radius : 1rem;
+    height : 1rem;
+    background : -webkit-gradient(linear, left top, right top, from(#29BEFF), to(#098cd8));
+    background : -webkit-linear-gradient(left, #29BEFF, #098cd8);
+    background :    -moz-linear-gradient(left, #29BEFF, #098cd8);
+    background :      -o-linear-gradient(left, #29BEFF, #098cd8);
+    background :         linear-gradient(to right, #29BEFF, #098cd8);
+    -webkit-box-shadow : 2px 0 7px 0 rgba(0, 0, 0, 0.35);
+            box-shadow : 2px 0 7px 0 rgba(0, 0, 0, 0.35);
+  }
+  .token-details .progress-top {
+    position : absolute;
+    top : -1.4rem;
+    display : -webkit-box;
+    display : -webkit-flex;
+    display :    -moz-box;
+    display : -ms-flexbox;
+    display :         flex;
+    -webkit-box-align : stretch;
+    -webkit-align-items : stretch;
+       -moz-box-align : stretch;
+    -ms-flex-align : stretch;
+            align-items : stretch;
+    /* Default */
+    -webkit-box-pack : justify;
+    -webkit-justify-content : space-between;
+       -moz-box-pack : justify;
+    -ms-flex-pack : justify;
+            justify-content : space-between;
+    width : 100%;
+    color : #FFFFFF;
+    padding : 0 1rem;
+  }
+  .token-details .progress-top li {
+    display : block;
+    -webkit-box-flex : 0;
+    -webkit-flex : 0 1 auto;
+       -moz-box-flex : 0;
+        -ms-flex : 0 1 auto;
+            flex : 0 1 auto;
+    /* Default */
+    font-size : 1rem;
+  }
+  .token-details .progress-top li.pre-sale {
+    position : relative;
+    left : 1rem;
+  }
+  .token-details .progress-top li.bonus {
+    position : relative;
+    right : 2.2rem;
+  }
+  .token-details .progress-top li.medium-cap {
+    position : relative;
+    right : 1rem;
+  }
+  .token-details .progress-top li.soft-cap {
+    position : relative;
+    right : 0;
+  }
+  .token-details .progress-top li.hard-cap {
+    position : relative;
+    right : 2.3rem;
+  }
+  .token-details .progress-bars {
+    position : absolute;
+    top : -.3rem;
+    display : -webkit-box;
+    display : -webkit-flex;
+    display :    -moz-box;
+    display : -ms-flexbox;
+    display :         flex;
+    -webkit-box-align : stretch;
+    -webkit-align-items : stretch;
+       -moz-box-align : stretch;
+    -ms-flex-align : stretch;
+            align-items : stretch;
+    /* Default */
+    -webkit-box-pack : justify;
+    -webkit-justify-content : space-between;
+       -moz-box-pack : justify;
+    -ms-flex-pack : justify;
+            justify-content : space-between;
+    width : 100%;
+    color : #FFFFFF;
+    padding : 0 1rem;
+  }
+  .token-details .progress-bars li {
+    display : block;
+    -webkit-box-flex : 0;
+    -webkit-flex : 0 1 auto;
+       -moz-box-flex : 0;
+        -ms-flex : 0 1 auto;
+            flex : 0 1 auto;
+    /* Default */
+  }
+  .token-details .progress-bottom {
+    position : absolute;
+    bottom : 1.5rem;
+    display : -webkit-box;
+    display : -webkit-flex;
+    display :    -moz-box;
+    display : -ms-flexbox;
+    display :         flex;
+    color : #FFFFFF;
+    -webkit-box-align : stretch;
+    -webkit-align-items : stretch;
+       -moz-box-align : stretch;
+    -ms-flex-align : stretch;
+            align-items : stretch;
+    /* Default */
+    -webkit-box-pack : justify;
+    -webkit-justify-content : space-between;
+       -moz-box-pack : justify;
+    -ms-flex-pack : justify;
+            justify-content : space-between;
+    width : 100%;
+    padding : 0 1rem;
+  }
+  .token-details .progress-bottom .progress-info {
+    display : block;
+    -webkit-box-flex : 0;
+    -webkit-flex : 0 1 auto;
+       -moz-box-flex : 0;
+        -ms-flex : 0 1 auto;
+            flex : 0 1 auto;
+    font-size : 1rem;
+  }
+
+  .flip-clock-divider .flip-clock-label {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .flip-clock-divider.seconds .flip-clock-label {
+
+    right: -100px !important;
+
+}
+
+  .flip-clock-divider.minutes .flip-clock-label {
+
+    right: -97px !important;
+
+}
+@media (max-width: 575.98px) {
+    .token-distribution .token-img {
+      text-align : center;
+      margin-bottom : 3rem;
+    }
+    .token-sale:before {
+      content : none;
+    }
+    .token-details .clock-counter .flip-clock-wrapper .flip {
+      margin : 2px;
+      height : 68px;
+      padding : 23px 1px;
+    }
+    .token-details .clock-counter .flip-clock-wrapper .flip li {
+      top : 6px;
+    }
+    .token-details .clock-counter .flip-clock-wrapper .flip li a .up .inn {
+      font-size : 1.5rem;
+      top : -16px;
+    }
+    .token-details .clock-counter .flip-clock-wrapper .flip li a .down .inn {
+      font-size : 1.5rem;
+      bottom : 16px;
+    }
+    .token-details .clock-counter .flip-clock-wrapper .flip-clock-dot {
+      width : 4px;
+      height : 4px;
+      left : 2px;
+    }
+    .token-details .clock-counter .flip-clock-wrapper .flip-clock-dot.top {
+      top : 16px;
+    }
+    .token-details .clock-counter .flip-clock-wrapper .flip-clock-dot.bottom {
+      bottom : 64px;
+    }
+    .token-details .clock-counter .flip-clock-divider.days .flip-clock-label {
+      left : -20px;
+    }
+    .token-details .clock-counter .flip-clock-divider.hours .flip-clock-label {
+      left : -8px;
+    }
+    .token-details .clock-counter .flip-clock-divider.minutes .flip-clock-label {
+      left : -10px;
+    }
+    .token-details .clock-counter .flip-clock-divider.seconds .flip-clock-label {
+      left : -16px;
+    }
+
+    .flip-clock-divider .flip-clock-label {
+      font-size: .85rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .token-distribution .token-img {
+      margin-bottom : 3rem;
+    }
+    .token-sale:before {
+      content : none;
+    }
+}
+
+@media (max-width: 767.98px) {
+  .token-details .progress-top {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .token-distribution .token-img {
+        text-align : center;
+        margin-bottom : 3rem;
+      }
+      .token-distribution .token-img img {
+        width : 450px;
+      }
+}
+
+.message {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 2rem;
+  color: white;
+}
